@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Translate Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Hello, Mango Hacks!</h3>
+                <hr />
+                <form id="preChatForm" autocomplete="off">
+
+                    <!-- Language -->
+                    <h4> Choose a Language</h4>
+                    <ul>
+                        <li>
+                            <input type="radio" id="en" name="language" />
+                            <label for="en">English</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="es" name="language" />
+                            <label for="es">Spanish</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="fr" name="language" />
+                            <label for="fr">French</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="de" name="language" />
+                            <label for="de">German</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="ru" name="language" />
+                            <label for="ru">Russian</label>
+                        </li>
+                    </ul>
+
+                    <!-- User Name -->
+                    <input type="text" class="form-control" placeholder="Enter a name..." id="userName" required />
+
+                    <!-- Join Chat -->
+                    <button type="submit" class="btn btn-primary btn-block">Join Chat</button>
+                </form>
+                <hr />
+            </div>
+        </div>
+
+        <!-- User Message Form -->
+        <div class="row">
+            <div class="col-xs-12">
+                <form id="userMessageForm" autocomplete="off">
+                    <input type="text" id="userMessage" class="form-control" placeholder="Enter a message..." required />
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+                <hr />
+            </div>
+        </div>
+
+        <!-- Messages List -->
+        <div class="row">
+            <div class="col-xs-12">
+                <h4>Messages</h4>
+                <ul id="messages" class="list-unstyled"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
