@@ -1,0 +1,10 @@
+{
+  "name": "websocketserver",
+  "version": "1.0",
+  "description": "websockets are cool",
+  "dependencies": {
+    "express": "^4.16.2",
+    "google-translate": "^2.0.5",
+    "ws": "^4.0.0"
+  }
+}
