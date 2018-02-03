@@ -13,3 +13,5 @@ Url: https://nodejs.org/en/
 * Run `npm install -g http-serve` to install a simple web serve to serve your client.
 * Run `http-serve -p 9999 .` to run the small web server on port 9999. 
 
+## Google Translate
+* If you are interested in connecting to Google Translate within your server, you can acess a key here: https://gist.github.com/GEMangoDigital/a92d076b9648b8882230b4072c6e6a99. 
